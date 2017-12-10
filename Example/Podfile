@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_Encryption_Example' do
+  pod 'HR_Encryption', :path => '../'
+
+  target 'HR_Encryption_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
