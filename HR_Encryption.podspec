@@ -14,7 +14,7 @@ s.name          = 'HR_Encryption'
 # a:较大更新
 # b:增加功能或者修改api等
 # c:较小修改
-s.version       = '0.1.0'
+s.version       = '0.2.0'
 
 
 # 2.2:摘要(创建时更新一次即可)
@@ -61,15 +61,19 @@ s.ios.deployment_target = '8.0'
 # 3.2:代码文件
 #====================================================================
 # 'h,m' 之间不能有空格
-s.source_files = 'HR_Encryption/Classes/*.{h,m}'
+#s.source_files = 'HR_Encryption/Classes/*.{h,m}'
 
 
-# 3.3:资源文件
-#====================================================================
-# 'HR_Encryption' 为存储的 bundleName
-#s.resource_bundles = {
-#'HR_Encryption' => ['HR_Encryption/**/*.{md}']
-#}
+# 3.2.1:代码文件
+s.subspec 'MD5' do |md5|
+md5.source_files = 'HR_Encryption/Classes/MD5/*.{h,m}'
+#md5.dependency 'AFNetworking'
+end
+
+# 3.2.2:代码文件
+s.subspec 'BASE64' do |base64|
+base64.source_files = 'HR_Encryption/Classes/BASE64/**/*.{h,m}'
+end
 
 
 # 3.4:依赖库

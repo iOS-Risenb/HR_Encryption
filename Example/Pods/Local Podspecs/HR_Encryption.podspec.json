@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HR_Encryption/Classes/*.{h,m}",
-  "resource_bundles": {
-    "HR_Encryption": [
-      "HR_Encryption/**/*.{md}"
-    ]
-  }
+  "source_files": "HR_Encryption/Classes/MD5/*.{h,m}"
 }
