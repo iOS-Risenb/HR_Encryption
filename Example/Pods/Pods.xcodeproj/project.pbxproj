@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB2B331D8DF3647349952C6F2E05499 /* Pods-HR_Encryption_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CC53085B1CFCF6FFC637DBE3895B66 /* Pods-HR_Encryption_Example-dummy.m */; };
+		33B66BA112383A6B7B8740490B30243C /* NSString+HR_Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DBA867EFEA9AF27F316738556CFCFA /* NSString+HR_Base64.m */; };
+		50E7BDA8B59B831DD36097F38FC88D58 /* NSString+HR_MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 545941C4888E43FCE15B60B499D84ED6 /* NSString+HR_MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BB5DEFB5520599BD9AC194A7D817C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		979A5F62775AA33F17F042C7459E35AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A416D68C96AEC0614F46A1C39029A9FF /* NSString+HR_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AB842C2F198B58A76527769D0856B8B5 /* NSString+HR_MD5.m */; };
+		C46159E91FC6000A3DF4472EF47BC2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E4F86371C5AB50CA21208654EBBBF8BB /* NSString+HR_Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 175398A0F0C4EF0B4317EAF87497B528 /* NSString+HR_Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B4585B2B45D0215FF6893F8050FFCF /* HR_Encryption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A32A7C7E0693F0580255813751AE5555 /* HR_Encryption-dummy.m */; };
+		FE404700CC96C03A64B9666AA1E06B56 /* Pods-HR_Encryption_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F727470D1932FFCF53F110817E44E5D /* Pods-HR_Encryption_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F0A13A603ACE55573041CF1BB9FD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4B7D3AAB2389FAE7AF2DABC8DC5DC4;
+			remoteInfo = "HR_Encryption-HR_Encryption";
+		};
+		45995BC5B54B64E8470FA1A009745145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13AA094B2821A977D9CDA03FA6FE6505;
+			remoteInfo = HR_Encryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CC53085B1CFCF6FFC637DBE3895B66 /* Pods-HR_Encryption_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HR_Encryption_Example-dummy.m"; sourceTree = "<group>"; };
+		07F665ABE90812398099E549FEE1C79B /* Pods-HR_Encryption_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HR_Encryption_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		15583F773B5C86AADF7EFD35D40D8679 /* Pods-HR_Encryption_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Encryption_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		175398A0F0C4EF0B4317EAF87497B528 /* NSString+HR_Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HR_Base64.h"; path = "HR_Encryption/Classes/NSString+HR_Base64.h"; sourceTree = "<group>"; };
+		545941C4888E43FCE15B60B499D84ED6 /* NSString+HR_MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HR_MD5.h"; path = "HR_Encryption/Classes/NSString+HR_MD5.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		668AA3A079EC848CCE9AE7A75435F05D /* ResourceBundle-HR_Encryption-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HR_Encryption-Info.plist"; sourceTree = "<group>"; };
+		6CE4A87562F2F565DEB0A7254266E9A6 /* Pods-HR_Encryption_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Encryption_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6F727470D1932FFCF53F110817E44E5D /* Pods-HR_Encryption_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HR_Encryption_Tests-dummy.m"; sourceTree = "<group>"; };
+		730B5097C2DB2BFDC38C1370D3B8C0EF /* libPods-HR_Encryption_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HR_Encryption_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEC14A59B97C14EBC587EEAE6610DF1 /* Pods-HR_Encryption_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Encryption_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F413A92100FB20FA8807727BFE0D6E2 /* HR_Encryption.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HR_Encryption.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A32A7C7E0693F0580255813751AE5555 /* HR_Encryption-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HR_Encryption-dummy.m"; sourceTree = "<group>"; };
+		A61D60B973D00F2593EF577B72F7DCE1 /* libHR_Encryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHR_Encryption.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A701D4C4723313A0BBD77A6493403 /* HR_Encryption.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HR_Encryption.xcconfig; sourceTree = "<group>"; };
+		AB842C2F198B58A76527769D0856B8B5 /* NSString+HR_MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HR_MD5.m"; path = "HR_Encryption/Classes/NSString+HR_MD5.m"; sourceTree = "<group>"; };
+		B4DBA867EFEA9AF27F316738556CFCFA /* NSString+HR_Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HR_Base64.m"; path = "HR_Encryption/Classes/NSString+HR_Base64.m"; sourceTree = "<group>"; };
+		B803C54DC8F0197394D1C006EC6B27B7 /* Pods-HR_Encryption_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Encryption_Example-resources.sh"; sourceTree = "<group>"; };
+		C588D8885CE308813BB8D52F4281FF98 /* Pods-HR_Encryption_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HR_Encryption_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7F0294873EBA263C822856B73DBCCF1 /* Pods-HR_Encryption_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HR_Encryption_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D336C8EA7DC6A2E69F26A74DF61155D9 /* libPods-HR_Encryption_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HR_Encryption_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447BE5EE60F28A8CAF219DA674A6672 /* Pods-HR_Encryption_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Encryption_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D8BE7F06098359383D5989F53F12B7F0 /* Pods-HR_Encryption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Encryption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB60F61BC1FA8AD0E4EAA415A9970FD6 /* Pods-HR_Encryption_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HR_Encryption_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1A439F79A364251ACF069A4CF4FD5D8 /* Pods-HR_Encryption_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HR_Encryption_Tests-resources.sh"; sourceTree = "<group>"; };
+		F7D6B528DE9F18DCC3B74BE92786E04A /* Pods-HR_Encryption_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HR_Encryption_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBC67FE4253FA411E2965CDC059F47C5 /* HR_Encryption-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HR_Encryption-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26713F00855A80F8E37A7726524C61D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979A5F62775AA33F17F042C7459E35AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE7FE367D748BD2EAA04A055F284020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46159E91FC6000A3DF4472EF47BC2AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D4D5F217CBB47F4C7B0E10FDC57ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5DEFB5520599BD9AC194A7D817C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD9D2C6A367FC78D85E9FCD1E8359D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18712AAE4A96674C479D75317632339B /* HR_Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				175398A0F0C4EF0B4317EAF87497B528 /* NSString+HR_Base64.h */,
+				B4DBA867EFEA9AF27F316738556CFCFA /* NSString+HR_Base64.m */,
+				545941C4888E43FCE15B60B499D84ED6 /* NSString+HR_MD5.h */,
+				AB842C2F198B58A76527769D0856B8B5 /* NSString+HR_MD5.m */,
+				BD25A6BE554BE070D14A28958D0882DF /* Support Files */,
+			);
+			name = HR_Encryption;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		61761CA350438E013F7FFE64EB8197A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF367F858553D2317DA92ECD850A6241 /* Pods-HR_Encryption_Example */,
+				A3BCF7AD6A81D72189DAADB912A43D73 /* Pods-HR_Encryption_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A78B0C1454480FDE3AC3F7CD7D9A0261 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F9BC4DF827A627409B5B83DCAFD81948 /* Products */,
+				61761CA350438E013F7FFE64EB8197A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BCF7AD6A81D72189DAADB912A43D73 /* Pods-HR_Encryption_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C588D8885CE308813BB8D52F4281FF98 /* Pods-HR_Encryption_Tests-acknowledgements.markdown */,
+				F7D6B528DE9F18DCC3B74BE92786E04A /* Pods-HR_Encryption_Tests-acknowledgements.plist */,
+				6F727470D1932FFCF53F110817E44E5D /* Pods-HR_Encryption_Tests-dummy.m */,
+				15583F773B5C86AADF7EFD35D40D8679 /* Pods-HR_Encryption_Tests-frameworks.sh */,
+				F1A439F79A364251ACF069A4CF4FD5D8 /* Pods-HR_Encryption_Tests-resources.sh */,
+				D8BE7F06098359383D5989F53F12B7F0 /* Pods-HR_Encryption_Tests.debug.xcconfig */,
+				EB60F61BC1FA8AD0E4EAA415A9970FD6 /* Pods-HR_Encryption_Tests.release.xcconfig */,
+			);
+			name = "Pods-HR_Encryption_Tests";
+			path = "Target Support Files/Pods-HR_Encryption_Tests";
+			sourceTree = "<group>";
+		};
+		A78B0C1454480FDE3AC3F7CD7D9A0261 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18712AAE4A96674C479D75317632339B /* HR_Encryption */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD25A6BE554BE070D14A28958D0882DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79A701D4C4723313A0BBD77A6493403 /* HR_Encryption.xcconfig */,
+				A32A7C7E0693F0580255813751AE5555 /* HR_Encryption-dummy.m */,
+				FBC67FE4253FA411E2965CDC059F47C5 /* HR_Encryption-prefix.pch */,
+				668AA3A079EC848CCE9AE7A75435F05D /* ResourceBundle-HR_Encryption-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HR_Encryption";
+			sourceTree = "<group>";
+		};
+		CF367F858553D2317DA92ECD850A6241 /* Pods-HR_Encryption_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C7F0294873EBA263C822856B73DBCCF1 /* Pods-HR_Encryption_Example-acknowledgements.markdown */,
+				07F665ABE90812398099E549FEE1C79B /* Pods-HR_Encryption_Example-acknowledgements.plist */,
+				02CC53085B1CFCF6FFC637DBE3895B66 /* Pods-HR_Encryption_Example-dummy.m */,
+				D447BE5EE60F28A8CAF219DA674A6672 /* Pods-HR_Encryption_Example-frameworks.sh */,
+				B803C54DC8F0197394D1C006EC6B27B7 /* Pods-HR_Encryption_Example-resources.sh */,
+				7BEC14A59B97C14EBC587EEAE6610DF1 /* Pods-HR_Encryption_Example.debug.xcconfig */,
+				6CE4A87562F2F565DEB0A7254266E9A6 /* Pods-HR_Encryption_Example.release.xcconfig */,
+			);
+			name = "Pods-HR_Encryption_Example";
+			path = "Target Support Files/Pods-HR_Encryption_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F9BC4DF827A627409B5B83DCAFD81948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F413A92100FB20FA8807727BFE0D6E2 /* HR_Encryption.bundle */,
+				A61D60B973D00F2593EF577B72F7DCE1 /* libHR_Encryption.a */,
+				730B5097C2DB2BFDC38C1370D3B8C0EF /* libPods-HR_Encryption_Example.a */,
+				D336C8EA7DC6A2E69F26A74DF61155D9 /* libPods-HR_Encryption_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF71EC2EAFF88E754151FAA1C845E885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F86371C5AB50CA21208654EBBBF8BB /* NSString+HR_Base64.h in Headers */,
+				50E7BDA8B59B831DD36097F38FC88D58 /* NSString+HR_MD5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13AA094B2821A977D9CDA03FA6FE6505 /* HR_Encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FA1BFA5C868433DF2C8D3BE1B22399 /* Build configuration list for PBXNativeTarget "HR_Encryption" */;
+			buildPhases = (
+				F170FB67DDAD2CA181BCF12512586141 /* Sources */,
+				54D4D5F217CBB47F4C7B0E10FDC57ACA /* Frameworks */,
+				AF71EC2EAFF88E754151FAA1C845E885 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A2F181D4D905C190F12803E01B07CB /* PBXTargetDependency */,
+			);
+			name = HR_Encryption;
+			productName = HR_Encryption;
+			productReference = A61D60B973D00F2593EF577B72F7DCE1 /* libHR_Encryption.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4DF121B3009762A6D6A3E4053BE55815 /* Pods-HR_Encryption_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E7B89D6B64EB99D612E8BC07A280BF /* Build configuration list for PBXNativeTarget "Pods-HR_Encryption_Example" */;
+			buildPhases = (
+				960006A7C35449A6E93B4D10416A5198 /* Sources */,
+				2DE7FE367D748BD2EAA04A055F284020 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70DE5A32E852E550DE0A16CD68278E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-HR_Encryption_Example";
+			productName = "Pods-HR_Encryption_Example";
+			productReference = 730B5097C2DB2BFDC38C1370D3B8C0EF /* libPods-HR_Encryption_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79C2166FB1347E0EACF1C014CA15D9D7 /* Pods-HR_Encryption_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A4AD2470C0068B07A45EFB74E899BD /* Build configuration list for PBXNativeTarget "Pods-HR_Encryption_Tests" */;
+			buildPhases = (
+				C150CCB1C763D614B68CF0BD33BCF32B /* Sources */,
+				26713F00855A80F8E37A7726524C61D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HR_Encryption_Tests";
+			productName = "Pods-HR_Encryption_Tests";
+			productReference = D336C8EA7DC6A2E69F26A74DF61155D9 /* libPods-HR_Encryption_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A4B7D3AAB2389FAE7AF2DABC8DC5DC4 /* HR_Encryption-HR_Encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142CE875CA807538D9FD9CC27DD24E75 /* Build configuration list for PBXNativeTarget "HR_Encryption-HR_Encryption" */;
+			buildPhases = (
+				E486DB665F8CCED6B85D8F3A2F36F955 /* Sources */,
+				9FD9D2C6A367FC78D85E9FCD1E8359D1 /* Frameworks */,
+				E49ADCA60ED7CAE6688BA62B9B2BDFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HR_Encryption-HR_Encryption";
+			productName = "HR_Encryption-HR_Encryption";
+			productReference = 8F413A92100FB20FA8807727BFE0D6E2 /* HR_Encryption.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F9BC4DF827A627409B5B83DCAFD81948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AA094B2821A977D9CDA03FA6FE6505 /* HR_Encryption */,
+				7A4B7D3AAB2389FAE7AF2DABC8DC5DC4 /* HR_Encryption-HR_Encryption */,
+				4DF121B3009762A6D6A3E4053BE55815 /* Pods-HR_Encryption_Example */,
+				79C2166FB1347E0EACF1C014CA15D9D7 /* Pods-HR_Encryption_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49ADCA60ED7CAE6688BA62B9B2BDFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960006A7C35449A6E93B4D10416A5198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB2B331D8DF3647349952C6F2E05499 /* Pods-HR_Encryption_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150CCB1C763D614B68CF0BD33BCF32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE404700CC96C03A64B9666AA1E06B56 /* Pods-HR_Encryption_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E486DB665F8CCED6B85D8F3A2F36F955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F170FB67DDAD2CA181BCF12512586141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B4585B2B45D0215FF6893F8050FFCF /* HR_Encryption-dummy.m in Sources */,
+				33B66BA112383A6B7B8740490B30243C /* NSString+HR_Base64.m in Sources */,
+				A416D68C96AEC0614F46A1C39029A9FF /* NSString+HR_MD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A2F181D4D905C190F12803E01B07CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HR_Encryption-HR_Encryption";
+			target = 7A4B7D3AAB2389FAE7AF2DABC8DC5DC4 /* HR_Encryption-HR_Encryption */;
+			targetProxy = 09F0A13A603ACE55573041CF1BB9FD64 /* PBXContainerItemProxy */;
+		};
+		F70DE5A32E852E550DE0A16CD68278E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HR_Encryption;
+			target = 13AA094B2821A977D9CDA03FA6FE6505 /* HR_Encryption */;
+			targetProxy = 45995BC5B54B64E8470FA1A009745145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0228BEF6C1F87D5CEA41773F02DA6B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEC14A59B97C14EBC587EEAE6610DF1 /* Pods-HR_Encryption_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463C7196F2332C0A11A3815CB5C86F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79A701D4C4723313A0BBD77A6493403 /* HR_Encryption.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HR_Encryption/HR_Encryption-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		978A2E984D90458FB8D5DDD045CE1820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79A701D4C4723313A0BBD77A6493403 /* HR_Encryption.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HR_Encryption";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HR_Encryption/ResourceBundle-HR_Encryption-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HR_Encryption;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9ACE8D362450ABA080CA3C0CD3295B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE4A87562F2F565DEB0A7254266E9A6 /* Pods-HR_Encryption_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BED6C2E76C418F49938B8AF3AC9924E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BE7F06098359383D5989F53F12B7F0 /* Pods-HR_Encryption_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D77F122EEAE9D1097A6DEDE99DC03F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79A701D4C4723313A0BBD77A6493403 /* HR_Encryption.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HR_Encryption/HR_Encryption-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		ECFF15BA163A72809D04893819F74C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79A701D4C4723313A0BBD77A6493403 /* HR_Encryption.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HR_Encryption";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HR_Encryption/ResourceBundle-HR_Encryption-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HR_Encryption;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F53AE4229444DA375A5984BAF2DE141D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB60F61BC1FA8AD0E4EAA415A9970FD6 /* Pods-HR_Encryption_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A4AD2470C0068B07A45EFB74E899BD /* Build configuration list for PBXNativeTarget "Pods-HR_Encryption_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED6C2E76C418F49938B8AF3AC9924E2 /* Debug */,
+				F53AE4229444DA375A5984BAF2DE141D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142CE875CA807538D9FD9CC27DD24E75 /* Build configuration list for PBXNativeTarget "HR_Encryption-HR_Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978A2E984D90458FB8D5DDD045CE1820 /* Debug */,
+				ECFF15BA163A72809D04893819F74C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E7B89D6B64EB99D612E8BC07A280BF /* Build configuration list for PBXNativeTarget "Pods-HR_Encryption_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0228BEF6C1F87D5CEA41773F02DA6B68 /* Debug */,
+				9ACE8D362450ABA080CA3C0CD3295B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FA1BFA5C868433DF2C8D3BE1B22399 /* Build configuration list for PBXNativeTarget "HR_Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463C7196F2332C0A11A3815CB5C86F6A /* Debug */,
+				D77F122EEAE9D1097A6DEDE99DC03F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

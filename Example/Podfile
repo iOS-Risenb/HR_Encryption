@@ -1,4 +1,4 @@
-use_frameworks!
+
 
 target 'HR_Encryption_Example' do
   pod 'HR_Encryption', :path => '../'

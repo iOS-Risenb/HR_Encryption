@@ -1,0 +1,6 @@
+framework module HR_Encryption {
+  umbrella header "HR_Encryption-umbrella.h"
+
+  export *
+  module * { export * }
+}
